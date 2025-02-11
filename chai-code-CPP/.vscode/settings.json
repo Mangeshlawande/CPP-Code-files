@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "climits": "cpp",
+        "map": "cpp",
+        "unordered_map": "cpp",
+        "ctime": "cpp",
+        "numeric": "cpp"
+    }
+}
