@@ -1,0 +1,52 @@
+template is used for generic class/template
+class template => generic class
+function template => generic function
+
+template <class, p>
+f1(p x, p y)
+{
+    p z;
+    z = x + y;
+
+};
+
+cpp classes
+array
+map
+string
+pair
+list
+tuple
+vector;
+
+array <4,int >a1;
+array <6,float >a2;
+
+
+Standard template Library
+1. Container=> array, vector , linkedlist, list tuple
+2. Algorithm => formula fun, mothod logics,operations
+3. Iterator => it is a pointer  , A bridge between container and algorithm, pair 
+
+fun template /class template & STL intro
+
+
+
+c++ STL 
+VECTOR CLASS 
+we can store unlimited data size is increases as per need
+their size increases 2 times 
+vector <int>v1;
+v1.push_back(10);
+v1.push_back(20);
+v1.push_back(30);
+v1.push_back(40);
+v1.push_back(50);
+
+vector<char> v1(6);
+vector<char> v1(6, 12);
+
+
+
+
+LIST CLASS 
