@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+// #include<conio.h>
 // write a program  to print english alphabet in lowercase.
 
 int main(){

@@ -18,8 +18,8 @@ long int factorial(int n){
 }
 int main()
 {
-     int n; 
-     cout << "Enter a number to calculate factorial : ";
+    int n; 
+    cout << "Enter a number to calculate factorial : ";
     cin>> n;
 
     cout << "Factorial of number "<<n << " is "<<factorial(n)<<endl;

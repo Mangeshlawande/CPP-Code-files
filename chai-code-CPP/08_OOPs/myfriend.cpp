@@ -1,44 +1,91 @@
-#include<iostream>
-using namespace std;
+// #include<iostream>
+// using namespace std;
 
 
-class Chai{
+// class Chai{
 
-    private:
-    string teaName;
-    int serving;
+//     private:
+//     string teaName;
+//     int serving;
     
-    public:
-    Chai(string name , int serve) : teaName(name) , serving(serve){};
+//     public:
+//     Chai(string name , int serve) : teaName(name) , serving(serve){};
 
-    void display() const{
-        cout<<"teaname"<<teaName<<endl;
-    }
-    friend bool compareServing( const Chai &chai1, const Chai &chai2);
+//     void display() const{
+//         cout<<"teaname"<<teaName<<endl;
+//     }
+//     friend bool compareServing( const Chai &chai1, const Chai &chai2);
 
-};
+// };
 
-    bool compareServing( const Chai &chai1, const Chai &chai2){
-        return chai1.serving > chai2.serving;
-    }
+//     bool compareServing( const Chai &chai1, const Chai &chai2){
+//         return chai1.serving > chai2.serving;
+//     }
 
 
-int main()
-{
-    Chai masalaChai("Masala Chai", 3);
-    Chai gingerChai("Ginger Chai",4);
+// int main()
+// {
+//     Chai masalaChai("Masala Chai", 3);
+//     Chai gingerChai("Ginger Chai",4);
     
-    masalaChai.display();
-    gingerChai.display();
+//     masalaChai.display();
+//     gingerChai.display();
 
-    if (compareServing(masalaChai, gingerChai)){
-        cout<<"Masala chai have more servings"<<endl;
-    }
-    else
-    {
-        cout<<"Ginger chai have more servings"<<endl;
-    }
+//     if (compareServing(masalaChai, gingerChai)){
+//         cout<<"Masala chai have more servings"<<endl;
+//     }
+//     else
+//     {
+//         cout<<"Ginger chai have more servings"<<endl;
+//     }
     
      
-    return 0;
+//     return 0;
+// };
+
+#include <iostream>
+#include <string>
+#include <vector>
+
+using namespace std;
+
+class Chai{
+    string teaName;
+    int serving;
+public:
+    Chai(string name, int serve) : teaName(name), serving(serve) {}
+
+    void display() const {
+        cout << "Tea Name: " << teaName << ", Servings: " << serving << endl;
+    };
+
+
+    // Declare the friend function
+    friend bool compareServing(const Chai &chai1, const Chai &chai2);
+
+
 };
+
+bool compareServing(const Chai &chai1, const Chai &chai2) {
+    return chai1.serving > chai2.serving;
+};
+
+int main(){
+
+    Chai masalaChai("Masala Chai", 3);
+    Chai gingerChai("Ginger Chai", 4);  
+
+    masalaChai.display();
+    gingerChai.display();   
+
+    if (compareServing(masalaChai, gingerChai)) {
+        cout << "Masala Chai has more servings." << endl;
+    } else {
+        cout << "Ginger Chai has more servings." << endl;
+    };
+    
+
+
+    return 0;
+
+}

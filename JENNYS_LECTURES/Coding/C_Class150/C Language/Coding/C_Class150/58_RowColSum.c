@@ -22,9 +22,7 @@
           Sr=Sc=0;
           for(j=0;j<3;j++){
                Sr = Sr + a[i][j];
-               Sc = Sc + a[j][i];
-               
-               
+               Sc = Sc + a[j][i];     
           }
            Sumd = Sumd + a[i][i];
            printf(" Sum_Rows = %d, Sum_Diag = %d, and Sum_Col = %d \n",Sr, Sumd, Sc);

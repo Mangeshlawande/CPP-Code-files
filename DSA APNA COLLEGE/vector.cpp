@@ -28,7 +28,7 @@ int main()
     // cout << val<< endl;
     // }
 
-    vector <int> v1;//size =0;
+    vector <int> v1;//size = 0;
     cout << "Size = " << v1.size() << endl;
 
     v1.push_back(1);

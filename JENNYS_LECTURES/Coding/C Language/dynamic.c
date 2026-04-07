@@ -1,5 +1,4 @@
 
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -13,7 +12,7 @@ int main()
     // printf("%d",*a);
     
     // calloc() --> To Store the array which is dynamic in nature 
-    int *g;
+    int* g;
     g = (int*) calloc(6, sizeof(int));// take 2 arguments
     *g = 43;
     *(g+1)= 11;

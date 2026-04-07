@@ -19,18 +19,18 @@ priority_queue<int,vector<int>, greater<int>>q1;
     q.pop();
     cout << q.top() <<endl;
 
-    // queue<int> q= {8,16,32,64,128};
+    // queue<int> q = {8,16,32,64,128};
     priority_queue <int> q2 ;
     q2.swap(q);
 
-    cout << " q size : " << q.size() << endl;//0
-    cout << " q2 size : " << q2.size() << endl;// 4
+    cout << " q size : " << q.size() << endl; // 0
+    cout << " q2 size : " << q2.size() << endl; // 4
 
     // while(!q.empty()) {
     //     cout<<q.top()<<" ";
     //     q.pop();
     // }
-    cout <<endl;
+    cout << endl;
      
     return 0;
 };

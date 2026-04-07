@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+// #include<conio.h>
 #include<stdlib.h>
 
   int decimal(int n)
@@ -15,10 +15,11 @@
 
 void main(){
     int x, binary;
-    printf("Enter a number :");
+    printf("Enter a number : ");
     scanf("%d", &x);
     
     decimal(x);
+    printf("\n");
 
-    getch();
+    // getch();
 }

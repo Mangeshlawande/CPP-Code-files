@@ -9,6 +9,7 @@ public: // access anywhere
     // data members/ attributes
     string teaName;             // name of tea
     int servings;               // number of servings
+    
     vector<string> ingredients; // list  of ingrediants for tea ;
     // PARAMETERIZED CONSTRUCTOR    
      Chai(string name,int serve,vector<string> ingr)// no return type 

@@ -2,7 +2,7 @@
      int main () {
     int age , vip = 0;
     printf(" Enter your age:\n");
-    scanf(" %d", &age);
+    scanf("%d", &age);
     // if (age>=90 ){
     //     printf(" You are above 90, You cannot drive !!");
 // if (age<=70 && age>=18 ){

@@ -11,6 +11,7 @@ int main()
     m["Chargers"]= 40;
     m["Tablet"]= 50;
     m["Mic"]= 140;
+    m["Speaker"]= 140;
     m.insert({"Buds", 46});
     m.erase("TV");
 //print in sorted order of keys in asc 

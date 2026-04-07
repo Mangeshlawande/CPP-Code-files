@@ -1,8 +1,9 @@
 #include<stdio.h>
-#include<conio.h>
+// #include<conio.h>
 // #include<stdlib.h>
 
 void main(){
+
     int i,r,a=-1,b=1,c;
 
     printf("Enter a range :");
@@ -15,6 +16,7 @@ void main(){
         a = b;
         b = c;
     }
+    printf("\n");
 
-    getch();
+    // getch();
 }

@@ -1,10 +1,13 @@
 {
     "files.associations": {
+        "*.dbclient-js": "javascript",
         "iostream": "cpp",
         "climits": "cpp",
         "map": "cpp",
         "unordered_map": "cpp",
         "ctime": "cpp",
-        "numeric": "cpp"
+        "numeric": "cpp",
+        "iterator": "cpp",
+        "deque": "cpp"
     }
 }

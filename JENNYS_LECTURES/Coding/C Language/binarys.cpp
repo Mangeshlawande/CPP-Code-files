@@ -21,15 +21,16 @@ int main()
     while(l<=r){
         m = (l+r)/2;
         if (a[m]==search){
-            cout<<"The Number is found at index :"<<m<<endl;
+            cout<<"The Number is found at index :"<< m <<endl;
             break;
         }
-        else if(a[m]>search){
+        else if(a[m] > search){
             r = m-1;
         }
-        else if(a[m]<search){
+        else if(a[m] < search){
             l = m + 1;
         }
+        
         else{
             cout<<"Element is Not found !!";
 

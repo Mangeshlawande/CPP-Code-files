@@ -15,11 +15,13 @@ class BankAccount {
         accountNumber = accNum;
         balance = initialBal;
 
-    }
+    };
+
     // getter 
     double getBalance() const {
         return balance;
-    }
+    };
+    
     // deposite money
     void deposite(double amount){
         if(amount > 0 ) {

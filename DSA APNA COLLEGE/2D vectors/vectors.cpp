@@ -19,7 +19,9 @@ int main()
      };
 
      cout<< mat[0][0]<<endl;
+
     int rows = 3 , cols =3;
+    
     //  calculate dynamic size 
     // rows => mat.size();
     //  cols => 1 rows kitne elements { mat[i].size();  }

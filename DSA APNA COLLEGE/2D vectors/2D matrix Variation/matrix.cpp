@@ -9,6 +9,7 @@ the first int of each row is greater than the last int of previous row .
 
 row range [st, end]=> unique, non-overlapping range 
 */
+
 #include<iostream>
 #include<vector>
 using namespace std;
@@ -18,7 +19,7 @@ bool searchInRow(vector<vector<int>> & matrix, int target, int row){
  int n = matrix[0].size(); // cols 
  int st = 0 , end = n-1; 
 
- while (st<=end)
+ while (st <= end)
  {
     int mid = st + (end - st) /2;
     if (target == matrix[row][mid]){
@@ -28,7 +29,7 @@ bool searchInRow(vector<vector<int>> & matrix, int target, int row){
         st = mid + 1;
     }
     else{
-        end = mid -1;
+        end = mid - 1;
 
     }
  }
@@ -44,7 +45,7 @@ bool searchMatrix(vector<vector<int>> & matrix, int target){
 
     int startRow = 0, endRow = n-1;
     while(startRow<= endRow){
-        int midRow = startRow + (endRow- startRow)/2;
+        int midRow = startRow + (endRow - startRow)/2;
 
         if(target >= matrix[midRow][0] && target <= matrix[midRow][n-1]){
             // found the row => BS on this row;
@@ -58,7 +59,7 @@ bool searchMatrix(vector<vector<int>> & matrix, int target){
         } 
         else{
             // up => left;
-            endRow = midRow -1;
+            endRow = midRow - 1;
         }
     }
 

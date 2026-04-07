@@ -41,8 +41,7 @@ public: // access anywhere
 
 private: // access inside the class
     string name ;
-
-
+    
 };
 
 int main()

@@ -7,14 +7,15 @@ using namespace std;
 //     *ptr = 20 ;
 
 // }
+
 void changeA(int &b){// pass by reference alias (second other name )
     b = 20 ;
 
 }
 /*
 array pointers :
-array name is points to 1st element of array: arr[0]=>1;
-     array is constant pointers : cant change anymore through
+array name is points to 1st element of array: arr[0] >= 1;
+     array is constant pointers : can't change anymore through
         Increment ptr(++)/Decrement ptr(--)
         ptr add number of bytes 
     add / subtract number 
@@ -42,10 +43,6 @@ int main()
     // // ptr++;
     // ptr= ptr + 3;
     // cout <<ptr<<endl;
-
-
-
-
 
     
 //    int a = 10;

@@ -1,46 +1,46 @@
 
 
-// #include <stdio.h>
-// #include<math.h>
-// #include<stdlib.h>
+#include <stdio.h>
+#include<math.h>
+#include<stdlib.h>
 
 
-// int main()
-// { 
+int main()
+{ 
           
-//     while(1)
-//     {
-//          int p;
-//        printf("\nPress 1, to continue ");
-//        printf("\nPress 0, to Exit !! \n");
+    while(1)
+    {
+         int p;
+       printf("\nPress 1, to continue ");
+       printf("\nPress 0, to Exit !! \n");
     
-//        scanf("%d", &p);
-//        if(p==1)
-//         {
-//                 int x, sum=0, rem=0,temp;
-//             printf("\nEnter a number:\n");
-//             scanf("%d",&x);
-//             temp = x;
-//             while(temp!=0){
-//                 rem = temp%10;
-//                 sum = sum + pow(rem,3);
-//                 temp = temp/10;
-//             }
-//             if(x==sum){
-//                 printf("The number  %d is Armstrong number", x);
-//             }
-//             else{
-//                 printf("It is not Armstrong number");
-//             }
-//         }
-//       else
-//           {
-//             exit(0);
-//           }
-//     }
+       scanf("%d", &p);
+       if(p==1)
+        {
+                int x, sum=0, rem=0,temp;
+            printf("\nEnter a number:\n");
+            scanf("%d",&x);
+            temp = x;
+            while(temp!=0){
+                rem = temp%10;
+                sum = sum + (rem*rem*rem);
+                temp = temp/10;
+            }
+            if(x==sum){
+                printf("The number  %d is Armstrong number", x);
+            }
+            else{
+                printf("It is not Armstrong number");
+            }
+        }
+      else
+          {
+            exit(0);
+          }
+    }
    
-//     return 0;
-// }
+    return 0;
+}
 
 
 
@@ -127,28 +127,29 @@
 // 407
 // ```
 
-#include <stdio.h>
-#include <math.h>
+// #include <stdio.h>
+// #include <math.h>
 
-int main() 
-{  int x, sum=0, rem=0,temp;
-            // printf("\nEnter a number:\n");
-            // scanf("%d",&x);
-            for(x=1;x<=1000;x++)
-            {
-                 sum=0;
-                temp = x;
+// int main() 
+// {  int x, sum=0, rem=0,temp;
+//             // printf("\nEnter a number:\n");
+//             // scanf("%d",&x);
+//             for(x=1;x<=1000;x++)
+//             {
+//                  sum=0;
+//                 temp = x;
                 
-                while(temp!=0){
-                    rem = temp%10;
-                    sum = sum + pow(rem,3);
-                    temp = temp/10;
-                }
-                if(x==sum){
-                    printf("\nThe number  %d is Armstrong number!!", x);
+//                 while(temp!=0){
+//                     rem = temp%10;
+//                     sum = sum + (rem*rem*rem);
+//                     temp = temp/10;
+//                 }
+//                 if(x==sum){
+//                     printf("\nThe number  %d is Armstrong number!!", x);
                    
-                }
-            }
+//                 }
+//             }
+//             printf("\n");
             
-    return 0;
-}
+//     return 0;
+// }

@@ -3,19 +3,20 @@
 
 using namespace std;
 
-int main(){
+int main()
+{
     string userTea;
     int teaQuantity;
 
     cout << "What would you like to order in tea? \n";
     getline(cin, userTea);
 
-    //ask for quantity
+    // ask for quantity
     cout << "how many cups of " << userTea << "would you like to have ? ";
     cin >> teaQuantity;
 
-    cout << teaQuantity;
-    cout << userTea;
+    cout << teaQuantity << endl;
+    cout << userTea << endl;
 
     return 0;
 }

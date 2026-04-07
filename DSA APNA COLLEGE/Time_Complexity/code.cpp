@@ -20,13 +20,13 @@ n > 10^8
 n <= 10^8
     O(n) , Linear 
 n <= 10^6 
-    O(logn), sorting (greedy){job scheduling problem }
+    O(logn), sorting (greedy){ job scheduling problem }
 n <= 10^4
     O(n^2)(max) 
 n <= 500
      O(n^3)(max) 
 n <= 25
-     O(2^n)(max)  bruteforce recursion 
+     O(2^n)(max)  brute-force recursion 
 n <= 12
     O(n!) 
 
@@ -65,8 +65,8 @@ int main()
     // sum of number from 1 to N
 
      int  n ; 
-     cin>> n;
-     int ans = n * ( n+1)/2;
+     cin >> n;
+     int ans = n * ( n + 1 ) / 2;
 
 // N factorial O(n*k)
 int fact = 1 ;
@@ -74,7 +74,7 @@ for(int i = 1; i<= n ; i++) {
     fact *= i;
 }
 
-//  nth fibonacci -DP
+//  nth fibonacci - DP
     int dp[]={1,2,3};
 
 for (int i=2; i<=n; i++){
@@ -107,4 +107,6 @@ for(int i = 0 ; i<n-1; i++){
      
     return 0;
 };
+
+
 
