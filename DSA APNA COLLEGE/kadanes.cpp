@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
 int n = 5;
-int arr[n] = { 1,2,4,8,16};
+int arr[n] = { 1,2,4,8,16 };
 
 for(int st=0 ; st<n; st++){
     for (int end= st; end < n; end++){
