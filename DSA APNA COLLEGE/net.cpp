@@ -6,7 +6,7 @@ using namespace std;
 
 # define LIMIT 5 
 
-int x = 20 
+int x = 20 ;
 // Q. write a function to convert the number from decimal to binary.
 /*
 num  = 100
@@ -25,7 +25,7 @@ int decToBin(int n ){
     
 
     return ans;
-}
+};
 
 // Q. write a function to convert the number from binary to decimal.
 /**

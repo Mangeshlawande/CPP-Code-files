@@ -29,7 +29,7 @@ int main()
 
 
     vector<int> :: iterator first = arr.begin();
-    cout<< *first +1<<endl;
+    cout<< *first + 1 <<endl;
 
      cout <<"The constant value of Pi is " <<Pi << endl;
     

@@ -1,5 +1,5 @@
 without any stoppage a person travel a certain distance at average speed of 42 kn/hr and with stppages he cover the same distance at an average speed of 28 km/hr 
-how manyminutes per hour does he stop ?
+how many minutes per hour does he stop ?
 
 
 which digit should come in place of * ans $ if the number 4675$2*
