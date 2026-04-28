@@ -19,63 +19,63 @@ bool comparator(pair<int, int> p1, pair<int, int> p2)
 int main()
 {
     // 1. sort
-    // int arr[5] = {4,7,2,3,5};
-    //  vector<int> v = {6,4,2,3};
-    //  vector<pair<int, string>> vec = {{1, "Kakashi"},{2,"Saske"},{3,"Naruto"},{4, "sai"}, {5,"Lee"}};
+    int arr[5] = {4,7,2,3,5};
+     vector<int> v = {6,4,2,3};
+     vector<pair<int, string>> vec = {{1, "Kakashi"},{2,"Saske"},{3,"Naruto"},{4, "sai"}, {5,"Lee"}};
 
-    // vector<pair<int,int>> vec1 = {{3,1},{2,1},{7,1},{5,2},{4,3}};
+    vector<pair<int,int>> vec1 = {{3,1},{2,1},{7,1},{5,2},{4,3}};
 
-    // sort(vec1.begin(),vec1.end(), comparator);
+    sort(vec1.begin(),vec1.end(), comparator);
 
-    // //  sort(arr, arr + 5);
+     sort(arr, arr + 5);
 
-    // //  sort(v.begin(), v.end());
-    // //  sort(vec.begin(), vec.end());
+     sort(v.begin(), v.end());
+     sort(vec.begin(), vec.end());
 
-    //  for(auto p : vec1){
-    //     cout << p.first << " : "<<p.second;
-    //     cout<< endl;
-    //  }
-    // cout<<endl;
+     for(auto p : vec1){
+        cout << p.first << " : "<<p.second;
+        cout<< endl;
+     }
+    cout<<endl;
 
     // // comparator   for reverse order
-    // sort(arr, arr+5, greater<int>());
+    sort(arr, arr+5, greater<int>());
 
-    // // for(auto val : arr){
-    // //     cout << val << " ";
-    // //  }
-    // // cout<<endl;
+    for(auto val : arr){
+        cout << val << " ";
+     }
+    cout<<endl;
 
     // 2. reverse
     vector<int> vec2 = {1, 2, 4, 8, 16};
-    // reverse(vec2.begin(), vec2.end());
-    //  cout << * (max_element(vec2.begin(), vec2.end()))<<endl;;
-    //  cout << * (min_element(vec2.begin(), vec2.end()))<<endl;;
+    reverse(vec2.begin(), vec2.end());
+     cout << * (max_element(vec2.begin(), vec2.end()))<<endl;;
+     cout << * (min_element(vec2.begin(), vec2.end()))<<endl;;
 
-    // reverse(vec2.begin(), vec2.end());
+    reverse(vec2.begin(), vec2.end());
 
-    // for (auto val : vec2){
-    //     cout<< val << " ";
+    for (auto val : vec2){
+        cout<< val << " ";
 
-    // }
-    // cout<<endl;
+    }
+    cout<<endl;
 
     // 3. next Permutation ()
 
-    // string a = "abc";
-    // next_permutation(a.begin(), a.end());
+    string a = "abc";
+    next_permutation(a.begin(), a.end());
 
-    // cout << a << endl;
-    // prev_permutation(a.begin(), a.end());
+    cout << a << endl;
+    prev_permutation(a.begin(), a.end());
 
-    // cout<<a<<endl;
+    cout<<a<<endl;
 
     // 4. swap min max ;
 
     // 5. max & min Element
 
     // 6. Binary Search
-    // cout<< binary_search(vec2.begin(), vec2.end(), 12)<<endl;
+    cout<< binary_search(vec2.begin(), vec2.end(), 12)<<endl;
 
     //  7. Count Set bits;
     int l = 16;
